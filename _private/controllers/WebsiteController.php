@@ -18,6 +18,11 @@ class WebsiteController {
 		echo $template_engine->render('homepage');
 
 	}
+	public function adminPage() {
 
+		$template_engine = get_template_engine();
+		echo $template_engine->render('adminPage');
+
+	}
 }
 
