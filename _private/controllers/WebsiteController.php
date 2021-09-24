@@ -24,5 +24,11 @@ class WebsiteController {
 		echo $template_engine->render('adminPage');
 
 	}
+	public function registerPage() {
+
+		$template_engine = get_template_engine();
+		echo $template_engine->render('register');
+
+	}
 }
 
